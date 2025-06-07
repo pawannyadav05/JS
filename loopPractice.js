@@ -52,9 +52,19 @@ function f6(){
         if(i in vowel) vc+=1;
     console.log(vc);
 }
-let gameNumber=25;
-let usrNum=prompt("Guess the Number: ");
-while(gameNumber!=usrNum){
-    usrNum=prompt("Guess Correct the Number: ");
+function f7(){
+    let price=[299,399,199,499];
+    i=0;
+    for(let p of price){
+        let output=`Value of Product at index ${i} is ${p}`
+        console.log(output);
+        i++;
+    }
 }
-console.log("CONGRATS!!")
+let price=[299,399,199,499];
+    i=0;
+    for(let p of price){
+        let output=`Value of Product at index ${i} is ${p}`
+        console.log(output);
+        i++;
+    }
